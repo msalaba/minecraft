@@ -168,3 +168,66 @@
 [21:17:25] [Server thread/INFO]: [MM-Abilities] Enabling
 [21:17:25] [Server thread/INFO]: [MM-Abilities] Enabled with 9 worlds and 0 AbilitySets
 [21:17:37] [Server thread/INFO]: Done (30,014s)! For help, type "help" or "?"
+[21:49:40] [Server thread/INFO]: Alwintje[/192.168.1.57:50717] logged in with entity id 1073 at ([reiUndAlw] -289.23279945789517, 69.0, 164.47801447924564)
+[21:49:48] [Server thread/INFO]: Alwintje issued server command: /speed fly 9
+[21:51:00] [Dynmap Render Thread/INFO]: [dynmap] Loading default resource pack
+[21:51:22] [Server thread/INFO]: Alwintje lost connection: Disconnected
+[21:51:22] [Server thread/INFO]: Alwintje left the game.
+[21:51:27] [Server thread/INFO]: CONSOLE: Stopping the server..[m
+[21:51:27] [Server thread/INFO]: Stopping server
+[21:51:27] [Server thread/INFO]: [MobManager] Disabling MobManager v3.0.3
+[21:51:27] [Server thread/INFO]: [MM-Abilities] Disabled
+[21:51:27] [Server thread/INFO]: [MM-Limiter] Disabled
+[21:51:27] [Server thread/INFO]: [PVP Arena] Disabling pvparena v1.3.0.548
+[21:51:27] [Server thread/INFO]: [PVP Arena] Plugin tracking disabled. See you soon?
+[21:51:27] [Server thread/INFO]: [PVP Arena] disabled (version pvparena v1.3.0.548)
+[21:51:27] [Server thread/INFO]: [EssentialsSpawn] Disabling EssentialsSpawn v2.11.1
+[21:51:27] [Server thread/INFO]: [Vault] Disabling Vault v1.2.25-b333
+[21:51:27] [Server thread/INFO]: [Lockette] Disabling Lockette v1.7.12
+[21:51:27] [Server thread/INFO]: [0;36;22m[[0;36;1mmcore 7.0.2[0;36;22m] [0;33;1m[0;32;1mDeactivated [0;33;1mintegration with [0;35;1mVault[m
+[21:51:27] [Server thread/INFO]: Lockette is being disabled...  ;.;
+[21:51:27] [Server thread/INFO]: [Lockette] Closing all automatic doors.
+[21:51:27] [Server thread/INFO]: [InfinityDispenser] Disabling InfinityDispenser v1.5
+[21:51:27] [Server thread/INFO]: [InfinityDispenser] 1.5 version is disabled
+[21:51:27] [Server thread/INFO]: [Protect My Worlds] Disabling Protect My Worlds v0.2
+[21:51:27] [Server thread/INFO]: [fry-gbp] Disabling fry-gbp v1.0.3 (build #18)
+[21:51:27] [Server thread/INFO]: [EssentialsAntiBuild] Disabling EssentialsAntiBuild v2.11.1
+[21:51:27] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat v2.11.1
+[21:51:27] [Server thread/INFO]: [EssentialsProtect] Disabling EssentialsProtect v2.11.1
+[21:51:27] [Server thread/INFO]: [Essentials] Disabling Essentials v2.11.1
+[21:51:27] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v5.6
+[21:51:27] [Server thread/INFO]: [MultiWorld] Disabling MultiWorld v4.6.5
+[21:51:27] [Server thread/INFO]: [MultiWorld] Disabled.
+[21:51:27] [Server thread/INFO]: [moorings] Disabling moorings v0.1
+[21:51:27] [Server thread/INFO]: [mcore] Disabling mcore v7.0.2
+[21:51:27] [Server thread/INFO]: [0;36;22m[[0;36;1mmcore 7.0.2[0;36;22m] [0;33;1mDisabled[m
+[21:51:27] [Server thread/INFO]: [dynmap] Disabling dynmap v2.2-1118
+[21:51:27] [Server thread/INFO]: [dynmap] Unloaded 11 components.
+[21:51:27] [Server thread/INFO]: [dynmap] Stopping map renderer...
+[21:51:28] [Server thread/INFO]: [dynmap] Disabled
+[21:51:28] [Server thread/INFO]: Saving players
+[21:51:28] [Server thread/INFO]: Saving worlds
+[21:51:28] [Server thread/INFO]: Saving chunks for level 'world'/Overworld
+[21:51:28] [Server thread/INFO]: Saving chunks for level 'castle'/Overworld
+[21:51:28] [Server thread/INFO]: Saving chunks for level 'wedit'/Overworld
+[21:51:28] [Server thread/INFO]: Saving chunks for level 'wild1'/Overworld
+[21:51:28] [Server thread/INFO]: Saving chunks for level 'MarioKart'/Overworld
+[21:51:28] [Server thread/INFO]: Saving chunks for level 'vbuild'/Overworld
+[21:51:28] [Server thread/INFO]: Saving chunks for level 'reiUndAlw'/Overworld
+[21:51:28] [Server thread/INFO]: Saving chunks for level 'game'/Overworld
+[21:51:28] [Server thread/INFO]: Saving chunks for level 'InfiniteRollerCoaster'/Overworld
+[21:51:28] [Server thread/INFO]: Saving chunks for level 'wild'/Overworld
+[21:51:28] [Server thread/INFO]: Saving chunks for level 'Dungeon'/Overworld
+[21:51:28] [Server thread/INFO]: Saving chunks for level 'cruise'/Overworld
+[21:51:28] [Server thread/INFO]: Saving chunks for level 'changeAble'/Overworld
+[21:51:28] [Server thread/INFO]: Saving chunks for level 'eline'/Overworld
+[21:51:28] [Server thread/INFO]: Saving chunks for level 'boat'/Overworld
+[21:51:28] [Server thread/INFO]: Saving chunks for level 'ImperialCity'/Overworld
+[21:51:28] [Server thread/INFO]: Saving chunks for level 'world100'/Overworld
+[21:51:28] [Server thread/INFO]: Saving chunks for level 'pvp'/Overworld
+[21:51:28] [Server thread/INFO]: Saving chunks for level 'Mindfear'/Overworld
+[21:51:29] [Server thread/INFO]: Saving chunks for level 'testStuff'/Overworld
+[21:51:29] [Thread-4/INFO]: Stopping server
+[21:51:29] [Thread-4/INFO]: Saving players
+[21:51:29] [Thread-4/INFO]: Saving worlds
+[21:51:29] [Thread-4/INFO]: Saving chunks for level 'world'/Overworld

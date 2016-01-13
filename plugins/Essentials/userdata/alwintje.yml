@@ -1,7 +1,7 @@
 timestamps:
-  login: 1452458393975
+  login: 1452718180823
   lastteleport: 1452461968007
-  logout: 1452462193993
+  logout: 1452718282257
   kits:
     tools: 1402074507933
     firework: 1401472227579
@@ -9,7 +9,7 @@ timestamps:
     dtools: 1401472157629
     notch: 1401472191629
   jail: 0
-ipAddress: 82.168.107.189
+ipAddress: 192.168.1.57
 lastlocation:
   world: reiUndAlw
   x: 106.0176181119918
@@ -84,11 +84,11 @@ homes:
 afk: false
 logoutlocation:
   world: reiUndAlw
-  x: -289.23279945789517
-  y: 69.0
-  z: 164.47801447924564
-  yaw: -98.82263
-  pitch: -3.900074
+  x: -125.74886154629407
+  y: 73.25305220767612
+  z: -355.680779097675
+  yaw: 6.7777996
+  pitch: 7.650458
 money: '-9805.00'
 jailed: false
 nickname: alwintje
