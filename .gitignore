@@ -1,5 +1,7 @@
 plugins/dynmap/
 oude_plugins/
+server.properties
+
 
 # Windows image file caches
 Thumbs.db
