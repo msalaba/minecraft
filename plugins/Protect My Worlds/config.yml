@@ -1,0 +1,10 @@
+worldstodeny:
+- world
+- boat
+- castle
+- cruise
+- ImperialCity
+- pvp
+disable:
+  firespread: true
+  blockbreakbyfire: true

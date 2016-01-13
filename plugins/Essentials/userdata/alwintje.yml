@@ -1,0 +1,94 @@
+timestamps:
+  login: 1452458393975
+  lastteleport: 1452461968007
+  logout: 1452462193993
+  kits:
+    tools: 1402074507933
+    firework: 1401472227579
+    color: 1402413002400
+    dtools: 1401472157629
+    notch: 1401472191629
+  jail: 0
+ipAddress: 82.168.107.189
+lastlocation:
+  world: reiUndAlw
+  x: 106.0176181119918
+  y: 68.05642515506503
+  z: -939.9054218319201
+  yaw: 244.30493
+  pitch: -14.250094
+homes:
+  home:
+    world: world
+    x: -195.20884808451865
+    y: 59.0
+    z: 171.5922218002645
+    yaw: 1.1945801
+    pitch: 51.39646
+  jails:
+    world: world
+    x: -196.5
+    y: 8.0
+    z: 198.5
+    yaw: 181.96938
+    pitch: 8.100026
+  pvplounge:
+    world: pvp
+    x: -250.5
+    y: 66.0
+    z: 159.5
+    yaw: -183.15
+    pitch: 9.000067
+  house:
+    world: wild
+    x: 115.13935376867806
+    y: 64.0
+    z: -31.436954789689075
+    yaw: -93.60979
+    pitch: 24.900051
+  island:
+    world: skyworld
+    x: 103.21953329906933
+    y: 124.0
+    z: -1.9185638713808277
+    yaw: 196.34982
+    pitch: 20.999994
+  rua:
+    world: reiUndAlw
+    x: -190.76209823994458
+    y: 76.0
+    z: 256.6112570291047
+    yaw: 101.49036
+    pitch: 20.699955
+  underworld:
+    world: reiUndAlw
+    x: -92.44408286120745
+    y: 4.0
+    z: 260.9655247082818
+    yaw: -204.15189
+    pitch: 26.399849
+  kliff_underground:
+    world: reiUndAlw
+    x: -76.91697834165365
+    y: 15.0
+    z: 124.46718639542127
+    yaw: 48.74829
+    pitch: 19.350405
+  ak:
+    world: reiUndAlw
+    x: -1.0599960683777656
+    y: 57.0
+    z: 261.1160233879153
+    yaw: 63.13501
+    pitch: 37.950027
+afk: false
+logoutlocation:
+  world: reiUndAlw
+  x: -289.23279945789517
+  y: 69.0
+  z: 164.47801447924564
+  yaw: -98.82263
+  pitch: -3.900074
+money: '-9805.00'
+jailed: false
+nickname: alwintje

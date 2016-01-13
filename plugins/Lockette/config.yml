@@ -1,0 +1,27 @@
+enable-messages-user: true
+enable-messages-owner: false
+enable-messages-admin: true
+enable-messages-error: true
+enable-messages-help: true
+explosion-protection-all: true
+enable-chest-rotation: false
+enable-permissions: false
+enable-protection-doors: true
+enable-protection-trapdoors: false
+allow-admin-snoop: false
+allow-admin-bypass: false
+allow-admin-break: true
+enable-quick-protect: true
+enable-color-tags: true
+default-door-timer: 0
+custom-lockable-block-list:
+- 116
+- 84
+- 145
+- 154
+linked-plugin-ignore-list:
+- Alwintj
+broadcast-snoop-target: '[Everyone]'
+broadcast-break-target: '[Everyone]'
+broadcast-reload-target: '[Operators]'
+strings-file-name: strings-en.yml

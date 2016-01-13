@@ -1,0 +1,50 @@
+[19:48:07] [Server console handler/ERROR]: Exception handling console input
+java.io.IOException: De ingang is ongeldig
+	at java.io.FileInputStream.readBytes(Native Method) ~[?:1.8.0_31]
+	at java.io.FileInputStream.read(Unknown Source) ~[?:1.8.0_31]
+	at java.io.BufferedInputStream.fill(Unknown Source) ~[?:1.8.0_31]
+	at java.io.BufferedInputStream.read(Unknown Source) ~[?:1.8.0_31]
+	at java.io.FilterInputStream.read(Unknown Source) ~[?:1.8.0_31]
+	at org.bukkit.craftbukkit.libs.jline.console.ConsoleReader$1.read(ConsoleReader.java:167) ~[craftbukkit-1.7.2-R0.2.jar:git-Bukkit-1.7.2-R0.2-b2974jnks]
+	at org.bukkit.craftbukkit.libs.jline.internal.InputStreamReader.read(InputStreamReader.java:267) ~[craftbukkit-1.7.2-R0.2.jar:git-Bukkit-1.7.2-R0.2-b2974jnks]
+	at org.bukkit.craftbukkit.libs.jline.internal.InputStreamReader.read(InputStreamReader.java:204) ~[craftbukkit-1.7.2-R0.2.jar:git-Bukkit-1.7.2-R0.2-b2974jnks]
+	at org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.readCharacter(ConsoleReader.java:995) ~[craftbukkit-1.7.2-R0.2.jar:git-Bukkit-1.7.2-R0.2-b2974jnks]
+	at org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.readLineSimple(ConsoleReader.java:1506) ~[craftbukkit-1.7.2-R0.2.jar:git-Bukkit-1.7.2-R0.2-b2974jnks]
+	at org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.readLine(ConsoleReader.java:1153) ~[craftbukkit-1.7.2-R0.2.jar:git-Bukkit-1.7.2-R0.2-b2974jnks]
+	at org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.readLine(ConsoleReader.java:1117) ~[craftbukkit-1.7.2-R0.2.jar:git-Bukkit-1.7.2-R0.2-b2974jnks]
+	at org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.readLine(ConsoleReader.java:1105) ~[craftbukkit-1.7.2-R0.2.jar:git-Bukkit-1.7.2-R0.2-b2974jnks]
+	at net.minecraft.server.v1_7_R1.ThreadCommandReader.run(ThreadCommandReader.java:34) [craftbukkit-1.7.2-R0.2.jar:git-Bukkit-1.7.2-R0.2-b2974jnks]
+[19:48:07] [Server thread/INFO]: Starting minecraft server version 1.7.2
+[19:48:08] [Server thread/WARN]: To start the server with more ram, launch it as "java -Xmx1024M -Xms1024M -jar minecraft_server.jar"
+[19:48:08] [Server thread/INFO]: Loading properties
+[19:48:09] [Server thread/INFO]: Default game type: SURVIVAL
+[19:48:09] [Server thread/INFO]: Generating keypair
+[19:48:10] [Server thread/INFO]: Starting Minecraft server on 192.168.1.101:25565
+[19:48:10] [Server thread/WARN]: **** FAILED TO BIND TO PORT!
+[19:48:10] [Server thread/WARN]: The exception was: java.net.BindException: Cannot assign requested address: bind
+[19:48:10] [Server thread/WARN]: Perhaps a server is already running on that port?
+[19:48:23] [Server thread/INFO]: Starting minecraft server version 1.7.2
+[19:48:23] [Server thread/WARN]: To start the server with more ram, launch it as "java -Xmx1024M -Xms1024M -jar minecraft_server.jar"
+[19:48:23] [Server thread/INFO]: Loading properties
+[19:48:23] [Server console handler/ERROR]: Exception handling console input
+java.io.IOException: De ingang is ongeldig
+	at java.io.FileInputStream.readBytes(Native Method) ~[?:1.8.0_31]
+	at java.io.FileInputStream.read(Unknown Source) ~[?:1.8.0_31]
+	at java.io.BufferedInputStream.fill(Unknown Source) ~[?:1.8.0_31]
+	at java.io.BufferedInputStream.read(Unknown Source) ~[?:1.8.0_31]
+	at java.io.FilterInputStream.read(Unknown Source) ~[?:1.8.0_31]
+	at org.bukkit.craftbukkit.libs.jline.console.ConsoleReader$1.read(ConsoleReader.java:167) ~[craftbukkit-1.7.2-R0.2.jar:git-Bukkit-1.7.2-R0.2-b2974jnks]
+	at org.bukkit.craftbukkit.libs.jline.internal.InputStreamReader.read(InputStreamReader.java:267) ~[craftbukkit-1.7.2-R0.2.jar:git-Bukkit-1.7.2-R0.2-b2974jnks]
+	at org.bukkit.craftbukkit.libs.jline.internal.InputStreamReader.read(InputStreamReader.java:204) ~[craftbukkit-1.7.2-R0.2.jar:git-Bukkit-1.7.2-R0.2-b2974jnks]
+	at org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.readCharacter(ConsoleReader.java:995) ~[craftbukkit-1.7.2-R0.2.jar:git-Bukkit-1.7.2-R0.2-b2974jnks]
+	at org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.readLineSimple(ConsoleReader.java:1506) ~[craftbukkit-1.7.2-R0.2.jar:git-Bukkit-1.7.2-R0.2-b2974jnks]
+	at org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.readLine(ConsoleReader.java:1153) ~[craftbukkit-1.7.2-R0.2.jar:git-Bukkit-1.7.2-R0.2-b2974jnks]
+	at org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.readLine(ConsoleReader.java:1117) ~[craftbukkit-1.7.2-R0.2.jar:git-Bukkit-1.7.2-R0.2-b2974jnks]
+	at org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.readLine(ConsoleReader.java:1105) ~[craftbukkit-1.7.2-R0.2.jar:git-Bukkit-1.7.2-R0.2-b2974jnks]
+	at net.minecraft.server.v1_7_R1.ThreadCommandReader.run(ThreadCommandReader.java:34) [craftbukkit-1.7.2-R0.2.jar:git-Bukkit-1.7.2-R0.2-b2974jnks]
+[19:48:23] [Server thread/INFO]: Default game type: SURVIVAL
+[19:48:23] [Server thread/INFO]: Generating keypair
+[19:48:25] [Server thread/INFO]: Starting Minecraft server on 192.168.1.101:25565
+[19:48:30] [Server thread/WARN]: **** FAILED TO BIND TO PORT!
+[19:48:30] [Server thread/WARN]: The exception was: java.net.BindException: Cannot assign requested address: bind
+[19:48:30] [Server thread/WARN]: Perhaps a server is already running on that port?

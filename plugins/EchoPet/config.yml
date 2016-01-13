@@ -1,0 +1,865 @@
+# +----------------------------------------------------+
+# <                 EchoPet By DSH105                  >
+# <               ---------------------                >
+# <            Configuration for EchoPet 2             >
+# <   See the EchoPet Wiki before editing this file    >
+# +----------------------------------------------------+
+
+commandString: pet
+
+# If set to true, EchoPet will automatically download and install
+# new updates.
+autoUpdate: false
+
+# If -autoUpdate- is set to false, EchoPet will notify certain
+# players of new updates if they are available (if set to true).
+checkForUpdates: true
+
+# If true, Pets saved to a MySQL Database will override
+# those saved to a file (Default and AutoSave Pets)
+sql:
+  overrideFile: true
+  use: true
+  host: 192.168.1.59
+  port: 3306
+  database: minecraft
+  username: root
+  password: Alwin12345
+petSelector:
+  giveOnJoin:
+    enable: false
+    usePerm: false
+    perm: echopet.selector.join
+    slot: 9
+  clearInvOnJoin: false
+
+# If true, EchoPet will autosave all pet data to prevent data
+# loss in the event of a server crash.
+autoSave: true
+
+# Interval between autosave of pet data (in seconds).
+autoSaveTimer: 180
+
+# Auto-load pets from last session
+loadSavedPets: true
+
+# When true, if -loadSavedPets-
+# is set to false, Pets will
+# still be loaded when
+# players switch worlds
+multiworldLoadOverride: true
+
+# Send message that pet was loaded if -loadSavedPets- is true
+sendLoadMessage: true
+
+# For all data values forced, EchoPet will notify the player
+# (if set to true).
+sendForceMessage: true
+worlds:
+  world: true
+  enableByDefault: true
+worldguard:
+  regions:
+    echopet: true
+    allowByDefault: true
+  regionEnterCheck: true
+pets:
+  blaze:
+    enable: true
+    tagVisible: true
+    defaultName: Blaze Pet
+    interactMenu: true
+    startFollowDistance: 12
+    stopFollowDistance: 8
+    teleportDistance: 50
+    attack:
+      canDamagePlayers: false
+      lockRange: 10
+      ticksBetweenAttacks: 20
+      damage: 6.0
+      loseHealth: false
+      health: 20.0
+    rideSpeed: 0.25
+    jumpHeight: 0.6
+    canFly: true
+    allow:
+      mounts: true
+      fire: true
+    force:
+      fire: false
+  cavespider:
+    enable: true
+    tagVisible: true
+    defaultName: Cave Spider Pet
+    interactMenu: true
+    startFollowDistance: 12
+    stopFollowDistance: 8
+    teleportDistance: 50
+    attack:
+      canDamagePlayers: false
+      lockRange: 10
+      ticksBetweenAttacks: 20
+      damage: 5.0
+      loseHealth: false
+      health: 12.0
+    rideSpeed: 0.25
+    jumpHeight: 0.6
+    canFly: false
+    allow:
+      mounts: true
+  creeper:
+    enable: true
+    tagVisible: true
+    defaultName: Creeper Pet
+    interactMenu: true
+    startFollowDistance: 12
+    stopFollowDistance: 8
+    teleportDistance: 50
+    attack:
+      canDamagePlayers: false
+      lockRange: 10
+      ticksBetweenAttacks: 20
+      damage: 6.0
+      loseHealth: false
+      health: 20.0
+    rideSpeed: 0.25
+    jumpHeight: 0.6
+    canFly: false
+    allow:
+      mounts: true
+      powered: true
+    force:
+      powered: false
+  enderdragon:
+    enable: true
+    tagVisible: true
+    defaultName: EnderDragon Pet
+    interactMenu: true
+    startFollowDistance: 12
+    stopFollowDistance: 8
+    teleportDistance: 50
+    attack:
+      canDamagePlayers: false
+      lockRange: 10
+      ticksBetweenAttacks: 20
+      damage: 0.0
+      loseHealth: false
+      health: 200.0
+    rideSpeed: 0.25
+    jumpHeight: 0.6
+  enderman:
+    enable: true
+    tagVisible: true
+    defaultName: Enderman Pet
+    interactMenu: true
+    startFollowDistance: 12
+    stopFollowDistance: 8
+    teleportDistance: 50
+    attack:
+      canDamagePlayers: false
+      lockRange: 10
+      ticksBetweenAttacks: 20
+      damage: 6.0
+      loseHealth: false
+      health: 40.0
+    rideSpeed: 0.25
+    jumpHeight: 0.6
+    canFly: false
+    allow:
+      mounts: true
+      screaming: true
+    force:
+      screaming: false
+  ghast:
+    enable: true
+    tagVisible: true
+    defaultName: Ghast Pet
+    interactMenu: true
+    startFollowDistance: 12
+    stopFollowDistance: 8
+    teleportDistance: 50
+    attack:
+      canDamagePlayers: false
+      lockRange: 10
+      ticksBetweenAttacks: 20
+      damage: 7.0
+      loseHealth: false
+      health: 10.0
+    rideSpeed: 0.25
+    jumpHeight: 0.6
+    canFly: true
+    allow:
+      mounts: true
+  giant:
+    enable: true
+    tagVisible: true
+    defaultName: Giant Pet
+    interactMenu: true
+    startFollowDistance: 12
+    stopFollowDistance: 8
+    teleportDistance: 50
+    attack:
+      canDamagePlayers: false
+      lockRange: 10
+      ticksBetweenAttacks: 20
+      damage: 0.0
+      loseHealth: false
+      health: 100.0
+    rideSpeed: 0.25
+    jumpHeight: 0.6
+    canFly: false
+    allow:
+      mounts: true
+  magmacube:
+    enable: true
+    tagVisible: true
+    defaultName: Magma Cube Pet
+    interactMenu: true
+    startFollowDistance: 12
+    stopFollowDistance: 8
+    teleportDistance: 50
+    attack:
+      canDamagePlayers: false
+      lockRange: 10
+      ticksBetweenAttacks: 20
+      damage: 5.0
+      loseHealth: false
+      health: 20.0
+    rideSpeed: 0.25
+    jumpHeight: 0.6
+    canFly: false
+    allow:
+      mounts: true
+      large: true
+      medium: true
+      small: true
+    force:
+      large: false
+      medium: false
+      small: false
+  pigzombie:
+    enable: true
+    tagVisible: true
+    defaultName: Pig Zombie Pet
+    interactMenu: true
+    startFollowDistance: 12
+    stopFollowDistance: 8
+    teleportDistance: 50
+    attack:
+      canDamagePlayers: false
+      lockRange: 10
+      ticksBetweenAttacks: 20
+      damage: 6.0
+      loseHealth: false
+      health: 20.0
+    rideSpeed: 0.25
+    jumpHeight: 0.6
+    canFly: false
+    allow:
+      mounts: true
+      baby: true
+      villager: true
+    force:
+      baby: false
+      villager: false
+  silverfish:
+    enable: true
+    tagVisible: true
+    defaultName: Silverfish Pet
+    interactMenu: true
+    startFollowDistance: 12
+    stopFollowDistance: 8
+    teleportDistance: 50
+    attack:
+      canDamagePlayers: false
+      lockRange: 10
+      ticksBetweenAttacks: 20
+      damage: 4.0
+      loseHealth: false
+      health: 8.0
+    rideSpeed: 0.25
+    jumpHeight: 0.6
+    canFly: false
+    allow:
+      mounts: true
+  skeleton:
+    enable: true
+    tagVisible: true
+    defaultName: Skeleton Pet
+    interactMenu: true
+    startFollowDistance: 12
+    stopFollowDistance: 8
+    teleportDistance: 50
+    attack:
+      canDamagePlayers: false
+      lockRange: 10
+      ticksBetweenAttacks: 20
+      damage: 5.0
+      loseHealth: false
+      health: 20.0
+    rideSpeed: 0.25
+    jumpHeight: 0.6
+    canFly: false
+    allow:
+      mounts: true
+      wither: true
+    force:
+      wither: false
+  slime:
+    enable: true
+    tagVisible: true
+    defaultName: Slime Pet
+    interactMenu: true
+    startFollowDistance: 12
+    stopFollowDistance: 8
+    teleportDistance: 50
+    attack:
+      canDamagePlayers: false
+      lockRange: 10
+      ticksBetweenAttacks: 20
+      damage: 4.0
+      loseHealth: false
+      health: 20.0
+    rideSpeed: 0.25
+    jumpHeight: 0.6
+    canFly: false
+    allow:
+      mounts: true
+      large: true
+      medium: true
+      small: true
+    force:
+      large: false
+      medium: false
+      small: false
+  spider:
+    enable: true
+    tagVisible: true
+    defaultName: Spider Pet
+    interactMenu: true
+    startFollowDistance: 12
+    stopFollowDistance: 8
+    teleportDistance: 50
+    attack:
+      canDamagePlayers: false
+      lockRange: 10
+      ticksBetweenAttacks: 20
+      damage: 5.0
+      loseHealth: false
+      health: 16.0
+    rideSpeed: 0.25
+    jumpHeight: 0.6
+    canFly: false
+    allow:
+      mounts: true
+  witch:
+    enable: true
+    tagVisible: true
+    defaultName: Witch Pet
+    interactMenu: true
+    startFollowDistance: 12
+    stopFollowDistance: 8
+    teleportDistance: 50
+    attack:
+      canDamagePlayers: false
+      lockRange: 10
+      ticksBetweenAttacks: 20
+      damage: 5.0
+      loseHealth: false
+      health: 26.0
+    rideSpeed: 0.25
+    jumpHeight: 0.6
+    canFly: false
+    allow:
+      mounts: true
+  wither:
+    enable: true
+    tagVisible: true
+    defaultName: Wither Pet
+    interactMenu: true
+    startFollowDistance: 12
+    stopFollowDistance: 8
+    teleportDistance: 50
+    attack:
+      canDamagePlayers: false
+      lockRange: 10
+      ticksBetweenAttacks: 20
+      damage: 8.0
+      loseHealth: false
+      health: 300.0
+    rideSpeed: 0.25
+    jumpHeight: 0.6
+    canFly: true
+    allow:
+      mounts: true
+      shield: true
+    force:
+      shield: false
+  zombie:
+    enable: true
+    tagVisible: true
+    defaultName: Zombie Pet
+    interactMenu: true
+    startFollowDistance: 12
+    stopFollowDistance: 8
+    teleportDistance: 50
+    attack:
+      canDamagePlayers: false
+      lockRange: 10
+      ticksBetweenAttacks: 20
+      damage: 5.0
+      loseHealth: false
+      health: 20.0
+    rideSpeed: 0.25
+    jumpHeight: 0.6
+    canFly: false
+    allow:
+      mounts: true
+      baby: true
+      villager: true
+    force:
+      baby: false
+      villager: false
+  bat:
+    enable: true
+    tagVisible: true
+    defaultName: Bat Pet
+    interactMenu: true
+    startFollowDistance: 12
+    stopFollowDistance: 8
+    teleportDistance: 50
+    attack:
+      canDamagePlayers: false
+      lockRange: 10
+      ticksBetweenAttacks: 20
+      damage: 3.0
+      loseHealth: false
+      health: 6.0
+    rideSpeed: 0.25
+    jumpHeight: 0.6
+    canFly: true
+    allow:
+      mounts: true
+  chicken:
+    enable: true
+    tagVisible: true
+    defaultName: Chicken Pet
+    interactMenu: true
+    startFollowDistance: 12
+    stopFollowDistance: 8
+    teleportDistance: 50
+    attack:
+      canDamagePlayers: false
+      lockRange: 10
+      ticksBetweenAttacks: 20
+      damage: 3.0
+      loseHealth: false
+      health: 4.0
+    rideSpeed: 0.25
+    jumpHeight: 0.6
+    canFly: false
+    allow:
+      mounts: true
+      baby: true
+    force:
+      baby: false
+  cow:
+    enable: true
+    tagVisible: true
+    defaultName: Cow Pet
+    interactMenu: true
+    startFollowDistance: 12
+    stopFollowDistance: 8
+    teleportDistance: 50
+    attack:
+      canDamagePlayers: false
+      lockRange: 10
+      ticksBetweenAttacks: 20
+      damage: 4.0
+      loseHealth: false
+      health: 10.0
+    rideSpeed: 0.25
+    jumpHeight: 0.6
+    canFly: false
+    allow:
+      mounts: true
+      baby: true
+    force:
+      baby: false
+  horse:
+    enable: true
+    tagVisible: true
+    defaultName: Horse Pet
+    interactMenu: true
+    startFollowDistance: 12
+    stopFollowDistance: 8
+    teleportDistance: 50
+    attack:
+      canDamagePlayers: false
+      lockRange: 10
+      ticksBetweenAttacks: 20
+      damage: 4.0
+      loseHealth: false
+      health: 30.0
+    rideSpeed: 0.25
+    jumpHeight: 0.6
+    canFly: false
+    allow:
+      mounts: true
+      baby: true
+      black: true
+      blackSpot: true
+      brown: true
+      chested: true
+      chestnut: true
+      creamy: true
+      darkbrown: true
+      diamond: true
+      donkey: true
+      gray: true
+      gold: true
+      iron: true
+      mule: true
+      noarmour: true
+      noMarking: true
+      normal: true
+      saddle: true
+      skeleton: true
+      whiteSocks: true
+      whitePatch: true
+      whiteSpot: true
+      white: true
+      zombie: true
+    force:
+      baby: false
+      black: false
+      blackSpot: false
+      brown: false
+      chested: false
+      chestnut: false
+      creamy: false
+      darkbrown: false
+      diamond: false
+      donkey: false
+      gray: false
+      gold: false
+      iron: false
+      mule: false
+      noarmour: false
+      noMarking: false
+      normal: false
+      saddle: false
+      skeleton: false
+      whiteSocks: false
+      whitePatch: false
+      whiteSpot: false
+      white: false
+      zombie: false
+  irongolem:
+    enable: true
+    tagVisible: true
+    defaultName: Iron Golem Pet
+    interactMenu: true
+    startFollowDistance: 12
+    stopFollowDistance: 8
+    teleportDistance: 50
+    attack:
+      canDamagePlayers: false
+      lockRange: 10
+      ticksBetweenAttacks: 20
+      damage: 7.0
+      loseHealth: false
+      health: 100.0
+    rideSpeed: 0.25
+    jumpHeight: 0.6
+    canFly: false
+    allow:
+      mounts: true
+  mushroomcow:
+    enable: true
+    tagVisible: true
+    defaultName: Mushroom Cow Pet
+    interactMenu: true
+    startFollowDistance: 12
+    stopFollowDistance: 8
+    teleportDistance: 50
+    attack:
+      canDamagePlayers: false
+      lockRange: 10
+      ticksBetweenAttacks: 20
+      damage: 3.0
+      loseHealth: false
+      health: 10.0
+    rideSpeed: 0.25
+    jumpHeight: 0.6
+    canFly: false
+    allow:
+      mounts: true
+      baby: true
+    force:
+      baby: false
+  ocelot:
+    enable: true
+    tagVisible: true
+    defaultName: Ocelot Pet
+    interactMenu: true
+    startFollowDistance: 12
+    stopFollowDistance: 8
+    teleportDistance: 50
+    attack:
+      canDamagePlayers: false
+      lockRange: 10
+      ticksBetweenAttacks: 20
+      damage: 4.0
+      loseHealth: false
+      health: 10.0
+    rideSpeed: 0.25
+    jumpHeight: 0.6
+    canFly: false
+    allow:
+      mounts: true
+      baby: true
+      black: true
+      red: true
+      siamese: true
+      wild: true
+    force:
+      baby: false
+      black: false
+      red: false
+      siamese: false
+      wild: false
+  pig:
+    enable: true
+    tagVisible: true
+    defaultName: Pig Pet
+    interactMenu: true
+    startFollowDistance: 12
+    stopFollowDistance: 8
+    teleportDistance: 50
+    attack:
+      canDamagePlayers: false
+      lockRange: 10
+      ticksBetweenAttacks: 20
+      damage: 3.0
+      loseHealth: false
+      health: 10.0
+    rideSpeed: 0.25
+    jumpHeight: 0.6
+    canFly: false
+    allow:
+      mounts: true
+      baby: true
+      saddle: true
+    force:
+      baby: false
+      saddle: false
+  sheep:
+    enable: true
+    tagVisible: true
+    defaultName: Sheep Pet
+    interactMenu: true
+    startFollowDistance: 12
+    stopFollowDistance: 8
+    teleportDistance: 50
+    attack:
+      canDamagePlayers: false
+      lockRange: 10
+      ticksBetweenAttacks: 20
+      damage: 3.0
+      loseHealth: false
+      health: 8.0
+    rideSpeed: 0.25
+    jumpHeight: 0.6
+    canFly: false
+    allow:
+      mounts: true
+      baby: true
+      black: true
+      blue: true
+      brown: true
+      cyan: true
+      gray: true
+      green: true
+      lightBlue: true
+      lime: true
+      magenta: true
+      orange: true
+      pink: true
+      purple: true
+      red: true
+      sheared: true
+      silver: true
+      white: true
+      yellow: true
+    force:
+      baby: false
+      black: false
+      blue: false
+      brown: false
+      cyan: false
+      gray: false
+      green: false
+      lightBlue: false
+      lime: false
+      magenta: false
+      orange: false
+      pink: false
+      purple: false
+      red: false
+      sheared: false
+      silver: false
+      white: false
+      yellow: false
+  snowman:
+    enable: true
+    tagVisible: true
+    defaultName: Snowman Pet
+    interactMenu: true
+    startFollowDistance: 12
+    stopFollowDistance: 8
+    teleportDistance: 50
+    attack:
+      canDamagePlayers: false
+      lockRange: 10
+      ticksBetweenAttacks: 20
+      damage: 4.0
+      loseHealth: false
+      health: 4.0
+    rideSpeed: 0.25
+    jumpHeight: 0.6
+    canFly: false
+    allow:
+      mounts: true
+  squid:
+    enable: true
+    tagVisible: true
+    defaultName: Squid Pet
+    interactMenu: true
+    startFollowDistance: 12
+    stopFollowDistance: 8
+    teleportDistance: 50
+    attack:
+      canDamagePlayers: false
+      lockRange: 10
+      ticksBetweenAttacks: 20
+      damage: 4.0
+      loseHealth: false
+      health: 10.0
+    rideSpeed: 0.25
+    jumpHeight: 0.6
+    canFly: true
+    allow:
+      mounts: true
+  villager:
+    enable: true
+    tagVisible: true
+    defaultName: Villager Pet
+    interactMenu: true
+    startFollowDistance: 12
+    stopFollowDistance: 8
+    teleportDistance: 50
+    attack:
+      canDamagePlayers: false
+      lockRange: 10
+      ticksBetweenAttacks: 20
+      damage: 4.0
+      loseHealth: false
+      health: 20.0
+    rideSpeed: 0.25
+    jumpHeight: 0.6
+    canFly: false
+    allow:
+      mounts: true
+      baby: true
+      blacksmith: true
+      butcher: true
+      farmer: true
+      librarian: true
+      priest: true
+    force:
+      baby: false
+      blacksmith: false
+      butcher: false
+      farmer: false
+      librarian: false
+      priest: false
+  wolf:
+    enable: true
+    tagVisible: true
+    defaultName: Wolf Pet
+    interactMenu: true
+    startFollowDistance: 12
+    stopFollowDistance: 8
+    teleportDistance: 50
+    attack:
+      canDamagePlayers: false
+      lockRange: 10
+      ticksBetweenAttacks: 20
+      damage: 6.0
+      loseHealth: false
+      health: 20.0
+    rideSpeed: 0.25
+    jumpHeight: 0.6
+    canFly: false
+    allow:
+      mounts: true
+      angry: true
+      baby: true
+      black: true
+      blue: true
+      brown: true
+      cyan: true
+      gray: true
+      green: true
+      lightBlue: true
+      lime: true
+      magenta: true
+      orange: true
+      pink: true
+      purple: true
+      red: true
+      silver: true
+      tamed: true
+      white: true
+      yellow: true
+    force:
+      angry: false
+      baby: false
+      black: false
+      blue: false
+      brown: false
+      cyan: false
+      gray: false
+      green: false
+      lightBlue: false
+      lime: false
+      magenta: false
+      orange: false
+      pink: false
+      purple: false
+      red: false
+      silver: false
+      tamed: false
+      white: false
+      yellow: false
+  human:
+    enable: true
+    tagVisible: true
+    defaultName: Human Pet
+    interactMenu: true
+    startFollowDistance: 12
+    stopFollowDistance: 8
+    teleportDistance: 50
+    attack:
+      canDamagePlayers: false
+      lockRange: 10
+      ticksBetweenAttacks: 20
+      damage: 6.0
+      loseHealth: false
+      health: 20.0
+    rideSpeed: 0.25
+    jumpHeight: 0.6
+    canFly: false
+    allow:
+      mounts: true

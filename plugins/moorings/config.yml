@@ -1,0 +1,6 @@
+searchradius: 3.0
+ropelength: 3.0
+validblocks:
+- FENCE
+- NETHER_FENCE
+break: 

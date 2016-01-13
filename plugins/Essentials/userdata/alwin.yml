@@ -1,0 +1,25 @@
+timestamps:
+  login: 1406213542173
+  kits:
+    tools: 1401572582876
+  lastteleport: 1406213730630
+  jail: 0
+  logout: 1406213742777
+ipAddress: 127.0.0.1
+lastlocation:
+  world: world
+  x: -171.73683189970785
+  y: 67.0
+  z: 195.68635203209942
+  yaw: -75.42319
+  pitch: 32.394436
+money: '130.0'
+afk: false
+jailed: false
+logoutlocation:
+  world: world
+  x: -197.51772939155063
+  y: 72.0
+  z: 137.17458352614284
+  yaw: 79.61587
+  pitch: 19.372576

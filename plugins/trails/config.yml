@@ -1,0 +1,68 @@
+# Config file for trails plugin
+ 
+Heart:
+  Amount: 3
+  #Default = 3
+Angry:
+  Amount: 1
+  #Default = 1
+Magic:
+  Amount: 3
+  #Default = 3
+Fun:
+  Amount: 2
+  #Default = 2
+Cloud:
+  Amount: 5
+  #Default = 5
+  Speed: 0.0
+Witch:
+  Amount: 4
+  #Default = 4
+  Speed: 0.1
+  #DefaultSpeed = 0.1
+Ender:
+  Amount: 10
+  #Default = 10
+  Speed: 0.2
+  #DefaultSpeed = 0.2
+Green:
+  Amount: 1
+  #Default = 1
+Spark:
+  Amount: 2
+  #Default = 2
+  Speed: 0.05
+  #DefaultSpeed = 0.05
+Flame:
+  Amount: 5
+  #Default = 5
+  Speed: 0.0
+  #DefaultSpeed = 0.0
+WhiteMagic:
+  Amount: 5
+  #Default = 5
+  Speed: 0.1
+  #DefaultSpeed = 0.1
+Note:
+  Amount: 5
+  #Default = 5
+Snow:
+  Amount: 5
+  #Default = 5
+Water:
+  Amount: 3
+  #Default = 3
+Lava:
+  Amount: 3
+  #Default = 3
+Crit:
+  Amount: 5
+  #Default = 5
+  Speed: 0.5
+  #Default = 0.5
+Smoke:
+  Amount: 1
+  #Default = 1
+  Speed: 0.1
+  #Default = 0.1

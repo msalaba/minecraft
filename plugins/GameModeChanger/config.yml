@@ -1,0 +1,43 @@
+##
+## GameModeChanger Config-File
+## DO NOT USE TAB! Otherwise your plugin will not work!
+## 
+config:
+## Write down every world, which should be managed by GameModeChanger in this section.
+  creative:
+  - vbuild
+  survival:
+  - world
+  - pvp
+  - wild
+  - wild1
+  - castle
+  adventure:
+  
+  
+  whitelist:
+  - eline
+
+
+  pvp-management: false
+  
+  pvpworlds:
+  - wild
+  - wild1
+  - pvp
+##
+## GameModeChanger Language Variables
+## Change ingame messages
+##
+
+messages:
+  whitelisted: You are whitelisted! Your gamemode has not been changed!
+  unknown: Unknown command!
+  doesnotexist: This player is not online or does not exist!
+  changetosurvival: Your GameMode has been changed to SURVIVAL.
+  changetocreative: Your GameMode has been changed to CREATIVE.
+  changetoadventure: Your GameMode has been changed to ADVENTURE.
+  worldmodesurvival: GameMode of this world has been changed to SURVIVAL!
+  worldmodecreative: GameMode of this world has been changed to CREATIVE!
+  worldmodeadventure: GameMode of this world has been changed to ADVENTURE!
+  noperms: You have no permissions to do this!

@@ -1,0 +1,9 @@
+{
+  "aliasesCg": [
+    "cg",
+    "creativegates",
+    "creativegate"
+  ],
+  "permissionDefaultCreate": "TRUE",
+  "permissionDefaultUse": "TRUE"
+}

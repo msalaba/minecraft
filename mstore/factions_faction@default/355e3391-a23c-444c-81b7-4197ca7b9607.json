@@ -1,0 +1,101 @@
+{
+  "name": "§2Wilderness",
+  "createdAtMillis": 1407950793837,
+  "open": false,
+  "flags": {
+    "PERMANENT": true,
+    "PEACEFUL": false,
+    "INFPOWER": true,
+    "POWERLOSS": true,
+    "PVP": true,
+    "FRIENDLYFIRE": false,
+    "MONSTERS": true,
+    "EXPLOSIONS": true,
+    "OFFLINE_EXPLOSIONS": true,
+    "FIRESPREAD": true,
+    "ENDERGRIEF": true
+  },
+  "perms": {
+    "BUILD": [
+      "ALLY",
+      "MEMBER",
+      "OFFICER",
+      "NEUTRAL",
+      "ENEMY",
+      "TRUCE",
+      "RECRUIT",
+      "LEADER"
+    ],
+    "PAINBUILD": [],
+    "DOOR": [
+      "ALLY",
+      "MEMBER",
+      "OFFICER",
+      "NEUTRAL",
+      "ENEMY",
+      "TRUCE",
+      "RECRUIT",
+      "LEADER"
+    ],
+    "BUTTON": [
+      "ALLY",
+      "MEMBER",
+      "OFFICER",
+      "NEUTRAL",
+      "ENEMY",
+      "TRUCE",
+      "RECRUIT",
+      "LEADER"
+    ],
+    "LEVER": [
+      "ALLY",
+      "MEMBER",
+      "OFFICER",
+      "NEUTRAL",
+      "ENEMY",
+      "TRUCE",
+      "RECRUIT",
+      "LEADER"
+    ],
+    "CONTAINER": [
+      "ALLY",
+      "MEMBER",
+      "OFFICER",
+      "NEUTRAL",
+      "ENEMY",
+      "TRUCE",
+      "RECRUIT",
+      "LEADER"
+    ],
+    "INVITE": [
+      "LEADER",
+      "OFFICER"
+    ],
+    "KICK": [
+      "LEADER",
+      "OFFICER"
+    ],
+    "SETHOME": [
+      "LEADER",
+      "OFFICER"
+    ],
+    "WITHDRAW": [
+      "LEADER",
+      "OFFICER"
+    ],
+    "TERRITORY": [
+      "LEADER",
+      "OFFICER"
+    ],
+    "ACCESS": [
+      "LEADER",
+      "OFFICER"
+    ],
+    "DISBAND": [
+      "LEADER"
+    ],
+    "PERMS": [
+      "LEADER"
+    ]
+  }
+}

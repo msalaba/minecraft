@@ -1,0 +1,33 @@
+timestamps:
+  login: 1452458410674
+  logout: 1452459711790
+  lastteleport: 1452459500688
+  jail: 0
+  kits:
+    tools: 1401638122452
+ipAddress: 82.168.107.189
+afk: false
+logoutlocation:
+  world: reiUndAlw
+  x: 119.41963550559124
+  y: 64.0
+  z: -976.04930357525
+  yaw: -157.98218
+  pitch: 90.0
+lastlocation:
+  world: reiUndAlw
+  x: 2.973748308724348
+  y: 197.0
+  z: 525.8793920349232
+  yaw: 90.93176
+  pitch: 43.950005
+homes:
+  home:
+    world: wild
+    x: -45.2282379417709
+    y: 63.0
+    z: 51.97686330265493
+    yaw: 125.43225
+    pitch: 48.235264
+jailed: false
+money: '293.0'

@@ -1,0 +1,22 @@
+timestamps:
+  login: 1452446158105
+  logout: 1452424180474
+  lastteleport: 1452460553481
+  jail: 0
+ipAddress: 192.168.1.101
+lastlocation:
+  world: reiUndAlw
+  x: 264.3799279361933
+  y: 93.1684127015607
+  z: -1001.6133192024517
+  yaw: -2.8815918
+  pitch: 6.8999906
+logoutlocation:
+  world: reiUndAlw
+  x: 258.4701905232913
+  y: 63.5
+  z: -864.9330719517053
+  yaw: 35.921055
+  pitch: -34.5
+jailed: false
+afk: false

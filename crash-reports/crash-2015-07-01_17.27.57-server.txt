@@ -1,0 +1,41 @@
+---- Minecraft Crash Report ----
+// On the bright side, I bought you a teddy bear!
+
+Time: 1-7-15 17:27
+Description: Exception in server tick loop
+
+java.lang.NullPointerException: Exception in server tick loop
+	at net.minecraft.server.v1_7_R1.DedicatedServer.aw(DedicatedServer.java:282)
+	at net.minecraft.server.v1_7_R1.DedicatedServer.a(DedicatedServer.java:228)
+	at net.minecraft.server.v1_7_R1.MinecraftServer.run(MinecraftServer.java:465)
+	at net.minecraft.server.v1_7_R1.ThreadServerApplication.run(SourceFile:617)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.7.2
+	Operating System: Windows 8.1 (amd64) version 6.3
+	Java Version: 1.8.0_40, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 163966984 bytes (156 MB) / 189792256 bytes (181 MB) up to 1908932608 bytes (1820 MB)
+	JVM Flags: 1 total; -Xmx2048M
+	AABB Pool Size: 0 (0 bytes; 0 MB) allocated, 0 (0 bytes; 0 MB) used
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	CraftBukkit Information: 
+   Running: 
+   Failed to handle CraftCrashReport:
+java.lang.NullPointerException
+	at org.bukkit.Bukkit.getName(Bukkit.java:74)
+	at org.bukkit.craftbukkit.v1_7_R1.CraftCrashReport.call(CraftCrashReport.java:20)
+	at net.minecraft.server.v1_7_R1.CrashReportSystemDetails.a(SourceFile:74)
+	at net.minecraft.server.v1_7_R1.CrashReport.h(CrashReport.java:45)
+	at net.minecraft.server.v1_7_R1.CrashReport.<init>(CrashReport.java:33)
+	at net.minecraft.server.v1_7_R1.MinecraftServer.run(MinecraftServer.java:474)
+	at net.minecraft.server.v1_7_R1.ThreadServerApplication.run(SourceFile:617)
+
+	Profiler Position: N/A (disabled)
+	Is Modded: ~~ERROR~~ NullPointerException: null
+	Type: Dedicated Server (map_server.txt)

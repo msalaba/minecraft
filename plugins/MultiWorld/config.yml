@@ -1,0 +1,144 @@
+# # options.debug: must the debug output be printed?
+# # options.difficulty: what is the server diffeculty?
+# # options.locale: what set of lang files must be used, supported: en_US, nl_NL, de_DE, it_IT
+# # spawnGroup: used to set withs worlds have what spawn, difficult to use. see official site for details
+options:
+  debug: false
+  difficulty: 2
+  locale: en_US
+  usecreativemode: false
+  usecreativemodeinv: true
+  blockEnderChestInCrea: false
+  useEndPortalHandler: false
+  useportalhandler: true
+  useWorldSpawnHandler: false
+  useWorldChatSeperator: false
+worlds:
+  castle:
+    seed: -3072001644395777046
+    worldgen: Normal
+    options: ''
+    difficulty: 2
+    autoload: true
+    netherportal: world
+  wedit:
+    seed: -5175589560759294803
+    worldgen: Normal
+    options: ''
+    difficulty: 2
+    autoload: true
+  wild1:
+    seed: 5074092420091798842
+    worldgen: Normal
+    options: ''
+    difficulty: 2
+    autoload: true
+  MarioKart:
+    seed: -7535737966943163547
+    worldgen: Normal
+    options: ''
+    difficulty: 2
+    autoload: true
+  vbuild:
+    seed: -2025462011725841791
+    worldgen: Normal
+    options: ''
+    difficulty: 1
+    autoload: true
+  reiUndAlw:
+    seed: -2746142317098334855
+    worldgen: Normal
+    options: ''
+    difficulty: 2
+    autoload: true
+  game:
+    seed: 769476040821284154
+    worldgen: Normal
+    options: ''
+    difficulty: 2
+    autoload: true
+  InfiniteRollerCoaster:
+    seed: -6970544269380222962
+    worldgen: NORMAL
+    options: ''
+    difficulty: 2
+    autoload: true
+  wild:
+    seed: 4232537197995927676
+    worldgen: Normal
+    options: ''
+    difficulty: 2
+    autoload: true
+  Dungeon:
+    seed: 6528380673662284765
+    worldgen: Empty
+    options: ''
+    difficulty: 2
+    autoload: true
+  cruise:
+    seed: -5492692595467915485
+    worldgen: Normal
+    options: ''
+    difficulty: 2
+    autoload: true
+  changeAble:
+    seed: 9133166395768747017
+    worldgen: Normal
+    options: ''
+    difficulty: 2
+    autoload: true
+  world:
+    seed: -2657312566005761940
+    worldgen: Normal
+    options: ''
+    difficulty: 1
+    autoload: true
+    netherportal: castle
+  reinierUndALwin:
+    seed: 3876212491785649319
+    worldgen: Normal
+    options: ''
+    difficulty: 2
+    autoload: false
+  eline:
+    seed: 5338436117306932298
+    worldgen: Normal
+    options: ''
+    difficulty: 2
+    autoload: true
+  boat:
+    seed: 6420785192163290921
+    worldgen: Normal
+    options: ''
+    difficulty: 2
+    autoload: true
+  ImperialCity:
+    seed: -3981549465923128000
+    worldgen: Normal
+    options: ''
+    difficulty: 2
+    autoload: true
+  world100:
+    seed: 1694900453411113757
+    worldgen: Normal
+    options: ''
+    difficulty: 2
+    autoload: true
+  pvp:
+    seed: -8265373144002842132
+    worldgen: FlatLand
+    options: ''
+    difficulty: 2
+    autoload: true
+  Mindfear:
+    seed: -1132410039463267807
+    worldgen: Normal
+    options: ''
+    difficulty: 2
+    autoload: true
+  testStuff:
+    seed: -393963970001742033
+    worldgen: Normal
+    options: ''
+    difficulty: 2
+    autoload: true

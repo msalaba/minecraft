@@ -1,0 +1,5 @@
+entry-price: 50
+currency: dollars
+auto-draw: false
+draw-amount: 100
+prefix: Lottery

@@ -1,0 +1,18 @@
+mysql:
+  host: "192.168.1.59"
+  port: 3306
+  dbname: "minecraft"
+  user: "root"
+  pass: "Alwin12345"
+  prefix: "dstat_"
+clean:
+  days: 180
+  auto: false
+  commands:
+  - say Player $player_name$ has been removed due to a long absence from the server.
+  - say command 2
+  - say command 3
+checkVersion: true
+pluginStats: true
+debug: false
+dbversion: 6

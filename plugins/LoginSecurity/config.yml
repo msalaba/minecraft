@@ -1,0 +1,21 @@
+settings:
+  password-required: true
+  encryption: MD5
+  encoder: UTF-8
+  PHP_VERSION: 4
+  messager-api: true
+  blindness: true
+  session:
+    use: true
+    timeout (sec): 60
+  timeout:
+    use: true
+    timeout (sec): 60
+  table prefix: ls_
+MySQL:
+  use: true
+  host: 192.168.1.59
+  port: 3306
+  database: minecraft
+  username: root
+  password: Alwin12345
